@@ -4,12 +4,15 @@ Please  fetch or pull the code before push anything
 Requirements:
 1.	a. Make only 1 server. 
 b.  Run client on the same computer and on the other computer.
-    2. Check if there is a  file named “Local File.txt” if does not exit create one.  All the data  coming from all the client should be stored in this file. 
 
-3.	We have to define the size of “Local File.txt”  when file is about to full it should send the alert to client  “ file is about to full”  then when file is fulled  a  messeage is send to client and local tasks should be stopped peacefully.  
+2. Check if there is a  file named “Local File.txt” if does not exit create one.  All the data  coming from all the client should be stored in this file. 
+
+3.	We have to define the size of “Local File.txt”  when file is about to full it should send the alert to client  “ file is about to full”  then when file is fulled  a  messeage is send to client and local tasks should be stopped peacefully.
+    
 4.	Search how can be improve the performance .  for instance:   
  stop the  program( Server or Client )  after certain time if there is nothing to connect).  
-   Note the name of the client and time of the messeage into the “ Local File.txt” 
+   Note the name of the client and time of the messeage into the “ Local File.txt”
+  	
 5.	Use threading for optimize the proformance of the program. 
 
 
