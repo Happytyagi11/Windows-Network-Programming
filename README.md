@@ -5,8 +5,8 @@ message.txt Requirements:
 2. Overwrite the output file (message.txt) every time the server starts. 
 3. Write all the client messages into samefile (message.txt) 
 4. Format for each message in the file:        Username:  -----         Date and time:--------- 
-                                                                                   Message: ------------------------------------------ 
-                                                                        -------------------------------------------------------------- 
+                                                Message: ------------------------------------------ 
+                                                -------------------------------------------------------------- 
 Separate each message with a black line for readability. 
 5.stop all client when the file reaches 1kb in size. 
 6. measure and print performance metrics on the server side : Number of messages 
