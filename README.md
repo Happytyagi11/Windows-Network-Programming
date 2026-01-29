@@ -37,4 +37,13 @@ And username is displayed to the server.
 message.txt.   
 6. Monitors fie size using “FileInfo.Length.   
 7. At 90% of the 1kb send a warning to all client.   
-8. At 100% of the threshold, broadcast a stop signal and print performance metrics.  
+8. At 100% of the threshold, broadcast a stop signal and print performance metrics.
+
+
+
+
+
+Things to change:  
+1. dont hardcore message.txt , use config file to manage it . change the file name to text.txt  
+2. dont make it user interactive . generate text autometicly from the client. dont ask client about it .  
+3.   
